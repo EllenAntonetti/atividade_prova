@@ -1,17 +1,23 @@
+/* Styles da Home e generalizados */
+
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 body{
     background-color: #eee;
     width: 100%;
 }
+h1{font-size: 18px;} 
+p{font-size: 16px;}
 
+
+/*Style mais especificos da home*/
 #mae{
-    background-color: rgb(212, 212, 212);
+    /*rgb(212, 212, 212)*/
+    background-color: rgb(255, 255, 255);
     width: 1200px;
     margin: auto;
 }
@@ -19,6 +25,7 @@ body{
 a:link , a:visited, a:active{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    background-color: rgb(61, 61, 61);
 }
 
 a:hover{
@@ -29,14 +36,6 @@ header{
     padding: 10px;
     width: 100%;
     background-color: rgb(61, 61, 61);
-}
-
-h1{ 
-    font-size: 18px;
-}
-
-p{
-    font-size: 16px;
 }
 
 ul{
@@ -63,6 +62,7 @@ li:hover{
 }
 
 #logo a{
+    margin-right: 90%;
     text-decoration: none;
     display: flex;
     text-align: center;
@@ -78,7 +78,6 @@ li:hover{
     font-size: 3.6rem;
     font-weight: bold;
     font-style: oblique;
-
 }
 
 .imagensfodas{
@@ -87,6 +86,23 @@ li:hover{
 }
 
 .pedaco{
-    width: 33%;
-    
+    width: 30%;
+    margin-left: 2.5%;
+    background-color: #eee;
+}
+
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.finalzim{
+
+}
+
+footer{
+    background-color: rgb(61, 61, 61);
+    padding: 50px;
 }
