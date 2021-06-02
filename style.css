@@ -9,6 +9,7 @@
 body{
     background-color: #eee;
     width: 100%;
+    text-align: justify;
 }
 h1{font-size: 18px;} 
 p{font-size: 16px;}
@@ -16,13 +17,13 @@ p{font-size: 16px;}
 
 /*Style mais especificos da home*/
 #mae{
-    /*rgb(212, 212, 212)*/
     background-color: rgb(255, 255, 255);
     width: 1200px;
     margin: auto;
 }
 
 a:link , a:visited, a:active{
+    padding: 10px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgb(61, 61, 61);
@@ -50,8 +51,7 @@ li{
     display: inline-block;
     padding: 15px 0px;
     text-align: center;
-    border-style:double;
-    border-width: 3px;
+    border: 3px solid rgb(255, 255, 255);
     width: 16%;
     margin: 0 auto;
 }
@@ -71,6 +71,7 @@ li:hover{
 #logo-imagem{
     height: 80px;
     padding-left: 20px;
+    padding-right: 10px;
 }
 
 #texto-logo{
@@ -78,6 +79,7 @@ li:hover{
     font-size: 3.6rem;
     font-weight: bold;
     font-style: oblique;
+    text-shadow: #000000 3px 3px 0px;
 }
 
 .imagensfodas{
@@ -85,24 +87,43 @@ li:hover{
     display: flex;
 }
 
-.pedaco{
-    width: 30%;
-    margin-left: 2.5%;
+.imagem-e-texto{
+    width: 31%;
+    margin-left: 2%;
+    padding: 10px;
     background-color: #eee;
 }
 
 .content{
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px; 
 }
 
-.finalzim{
+.metade{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
 
+.img-holder {position: relative;}
+.img-holder .over {
+    padding: 30px;
+    position: absolute;
+    bottom: 180px;
+    right: 490px;
+    background-color: crimson;
 }
 
 footer{
+    width: 100%;
     background-color: rgb(61, 61, 61);
     padding: 50px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+footer a:link , a:visited, a:active{
+    background-color: transparent;
 }
