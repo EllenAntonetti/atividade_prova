@@ -29,7 +29,7 @@ a:link , a:visited, a:active{
     background-color: rgb(61, 61, 61);
 }
 
-a:hover{
+li a:hover{
     text-decoration: underline;
 }
 
@@ -63,7 +63,6 @@ li:hover{
 
 #logo a{
     margin-right: 90%;
-    text-decoration: none;
     display: flex;
     text-align: center;
 }
@@ -94,11 +93,16 @@ li:hover{
     background-color: #eee;
 }
 
+.imagem-e-texto a:hover{
+    background-color: rgb(194, 9, 9);
+    text-decoration: none;
+}
+
 .content{
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
 }
 
 .metade{
@@ -116,14 +120,33 @@ li:hover{
     background-color: crimson;
 }
 
+#voltar_topo{
+    background-color: cornflowerblue;
+    width: 25%;
+    margin: auto;
+}
+
 footer{
     width: 100%;
     background-color: rgb(61, 61, 61);
     padding: 50px;
-    justify-content: space-evenly;
     text-align: center;
 }
 
-footer a:link , a:visited, a:active{
+footer a:link , a:visited, a:active, a:hover{
     background-color: transparent;
+    text-decoration: none;
+}
+
+/* Design*/
+.threeQuarters{
+
+    width: 75%;
+    background-color: aquamarine;
+}
+
+.twentypercent{
+
+    width: 25%;
+    background-color: blue;
 }
