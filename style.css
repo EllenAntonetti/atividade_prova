@@ -87,6 +87,8 @@ li{
     margin: 0 auto;
 }
 
+/*Clases de utilidade geral*/
+
 .flexfullwidth{
     width: 100%;
     display: flex;
@@ -119,7 +121,10 @@ li{
 .laranja{
     background-color: orange;
     color: black;
-    padding: 0;
+}
+
+.crimson{
+    background-color: crimson;
 }
 
 /*Comprar*/
@@ -134,9 +139,18 @@ li{
 
 /*Design*/
 .threeQuarters{
+    display: flexbox;
     width: 75%;
+    float: left;
 }
 
 .twentypercent{
     width: 25%;
+}
+
+.border{
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
