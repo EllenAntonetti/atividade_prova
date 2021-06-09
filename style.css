@@ -52,9 +52,14 @@ footer{
     text-align: center;
 }
 
-footer a:link , a:visited, a:active, a:hover{
+footer a:link , a:visited, a:active{
     background-color: transparent;
     text-decoration: none;
+}
+
+footer .menu_footer:hover {
+    background-color: crimson;
+    transition: 400ms;
 }
 
 #voltar_topo{
