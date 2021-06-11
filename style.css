@@ -106,8 +106,13 @@ li{
     background-color: #eee;
 }
 
+.imagem-e-texto a{
+    color: black;
+}
+
 .imagem-e-texto a:hover{
     background-color: rgb(61, 61, 61);
+    color: #eee;
 }
 
 .content{
@@ -135,10 +140,11 @@ li{
 /*Comprar*/
 .img-holder {position: relative;}
 .img-holder .over {
-    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
     position: absolute;
-    bottom: 180px;
-    right: 490px;
+    bottom: 70px;
+    right: 25px;
     background-color: crimson;
 }
 
@@ -158,4 +164,21 @@ li{
     border-width: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/*comprar*/
+
+.displayfx{
+    display: flex;
+    padding: 10px;
+}
+
+form label{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.anteriores{
+    margin-left: 10px;
+    margin-right: 10px;
 }
