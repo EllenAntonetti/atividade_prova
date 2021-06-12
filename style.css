@@ -1,16 +1,28 @@
 /*TO DO: clean up the css file*/
 
 /*=======================================================================Valores e propriedades padrões*/
-*{font-family: Verdana, Geneva, Tahoma, sans-serif;box-sizing: border-box;margin: 0;padding: 0;}
-body{background-color: #eee;width: 100%;text-align: justify;}
-h1{font-size: 18px;} 
-p{font-size: 16px;}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+body{
+    background-color: #eee;
+    width: 100%;
+    text-align: justify;
+}
+h1{
+    font-size: 18px;
+} 
+p{
+    font-size: 16px;
+}
+
 #mae{
     background-color: rgb(255, 255, 255);
     width: 1200px;
     margin: auto;
 }
-
 /*=======================================================================Styles do header*/
 header{
     padding: 10px;
@@ -137,18 +149,7 @@ li{
     background-color: crimson;
 }
 
-/*Comprar*/
-.img-holder {position: relative;}
-.img-holder .over {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 5px;
-    position: absolute;
-    bottom: 70px;
-    right: 25px;
-    background-color: crimson;
-}
-
-/*Design*/
+/*pagina esign*/
 .threeQuarters{
     display: flexbox;
     width: 75%;
@@ -166,7 +167,7 @@ li{
     margin-bottom: 10px;
 }
 
-/*comprar*/
+/*Página comprar*/
 
 .displayfx{
     display: flex;
@@ -181,4 +182,15 @@ form label{
 .anteriores{
     margin-left: 10px;
     margin-right: 10px;
+    width: 35%;
+}
+/*Comprar*/
+.img-holder {position: relative;}
+.img-holder .over {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    position: absolute;
+    bottom: 70px;
+    right: 25px;
+    background-color: crimson;
 }
